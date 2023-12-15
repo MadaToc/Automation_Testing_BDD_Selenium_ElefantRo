@@ -1,0 +1,10 @@
+Pentru Setup si environoment vom instala:
+pip install pipenv
+pipenv install
+pipenv install selenium (sau pip install -U selenium - pt update la zi)
+pipenv install webdriver-manager
+pipenv install pytest
+
+pipenv install behave (o librarie bdd care va interpreta si rula testele scrise in gherkin)
+pipenv install behave-html-formatter (ne ajuta sa generam rapoarte bdd)
+pipenv install pytest-html (pentru a genera rapoarte html )
